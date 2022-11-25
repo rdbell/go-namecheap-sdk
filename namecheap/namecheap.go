@@ -5,14 +5,15 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"github.com/hashicorp/go-cleanhttp"
-	"github.com/namecheap/go-namecheap-sdk/v2/namecheap/internal/syncretry"
-	"github.com/weppos/publicsuffix-go/publicsuffix"
 	"io"
 	"net/http"
 	"net/url"
 	"regexp"
 	"strconv"
+
+	"github.com/hashicorp/go-cleanhttp"
+	"github.com/rdbell/go-namecheap-sdk/v2/namecheap/internal/syncretry"
+	"github.com/weppos/publicsuffix-go/publicsuffix"
 )
 
 const (
